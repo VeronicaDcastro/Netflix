@@ -6,8 +6,15 @@
 }
 
 @media screen and (min-width:1000px){
-    .descicao{
+    .menu{
         width: 50%;
     }
 
+}
+
+@media screen and (max-width:700px){
+    body {
+        display: flex;
+        flex-direction: column;
+    }
 }

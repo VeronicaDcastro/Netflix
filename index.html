@@ -3,100 +3,223 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="style/assets/mrv.js"></script>
     
     <!-- REFERENCIANDO A TELA CSS NO HTML -->
     <link rel="stylesheet" href="style/main.css"> 
 
-    <!--OWL CSS-->
-    <link rel ="stylesheet" href="style/owl/owl.carousel.min.css">
-    <link rel ="stylesheet" href="style/owl/owl.theme.default.min.css">
-
     <!--RESPONSIVIDADE-->
     <link rel="stylesheet" href="style/responsive.css">
 
-    <title>NETFLIX CLONE</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+            <h2 class="logo"></h2>
             <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+            <div style="float: left" display="inline-block">
+            <img src="img/mrv-logo-0 .png" class= "mrv-logo" width="130" height="130"></img> 
+            </div>
             </nav>
+        </div>
+     
+        <div class="teste" display="flex" style="text-align:middle">
+           <b><a>Imóveis a venda</a>
+            <a>| Institucional</a>
+            <a>| Sustentabilidade</a>
+            <a>| Investidores</a>
+            <a>| Clientes</a>
+            <a>| Inovação</a></b>
         </div>
     </header>
 
-    <main>
-        <div class="filme-principal">
-            <div class="container">
-                <h3 class="titulo">STRANGER THINGS</h3>
-                <p class="descricao"></p>Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.</p>
-                <div class="botoes">
-                <button role="button" class="botao">
-                    <i class="fa-solid fa-play"></i>
-                    ASSISTIR AGORA
-                </button>
-                <button role="button" class="botao">
-                    <i class="fa-solid fa-circle-info"></i>
-                    MAIS INFORMAÇÕES
-                </button>
-                </div>
-            </div>
-        </div>
-    </main>
+    
+    <div class="bloco">
+        <h3 class=""></h3>
+            <nav class="texto">
+            <p>Trabalhe conosco</p>
+            <p>nessa transformação</p>
+            </nav>
+            <img src="img/mrv-img2.jpg" class= "mrv-pessoas" position="rigth"></img> 
+    </div>
 
-    <div class="carrossel-filme">
-        <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <img class="box-filme" src="img/1.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/2.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/3.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/4.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/5.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/6.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/7.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/8.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/9.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/10.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/11.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/12.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/13.jpg" alt="" srcset="">
-                </div>
+    <div class="home">
+        <img src="img/icon-home.png" class= "home"></img>
+    </div>
+    <div class="home1">
+       <b><p style="text-decoration:underline">> Pessoas > Trabalhe Conosco</p></b>
+    </div>
+
+    <div class="texto1">
+        <nav>
+        <p><b>Explore novas oportunidades</b></p>
+        <p><b>na sua carreira</b></p>
+        </nav>
+    </div>
+
+    <div class="texto2">
+        <p>Quer fazer parte da equipe de <b>uma das melhores empresas para se trabalhar</p>
+        <p>segundo o Great Place To Work 2020</b></p>
+    </div>
+
+    <div class="texto3">
+        <p>Então junte-se a nós e amplie suas chances de mudar a vida de milhares de</p>
+        <p>pessoas e a sua também</p>
+
+        <div class="MRV_CO">
+            <div>
+            <img src="img/mrv_co.png" class="MRV_CO" style="display: inline-block"></img>
+        </div>
+    </div>
+    </div>
+
+    <div class="MRV">
+        <div>
+        <img src="img/mrv-mini.png" class="MRV" style="margin-left: 650px; margin-top: -550px"></img>
         </div>
     </div>
 
-    <script src="https://kit.fontawesome.com/86490fbc8f.js"></script>
-    <script src="js/owl/jquery.min.js"></script>
-    <script src="js/owl/owl.carousel.min.js"></script>
-    <script src="js/owl/setup.js"></script>
+                                          <!-- MODAL  -->
+    <a href="#pagina1" class="pagina"><img src="img/instituto.png" id="modalMRV" ></a>
+    <div id="modal" style="display:inline-block">
+    <a class="pagina1"><img src="img/mrv.pag2.png" id="modalMRV" ></a>
+    <div class="modal-box">
+        <div class="modal-box-conteudo"><p><b style="size: 24px; border-top: 50px; ">MRV:</b></p>
+            A Maior Construtora da América Latina é a principal frente de atuação do MRV&CO. Com o propósito de construir sonhos que transformam o mundo, a MRV abre as portas para que milhares de brasileiros possam conquistar um novo lar, com mais benefícios e facilidades.</b></div>
+        <div class="fechar" style=" font-size: 30px;text-align:center; color: #FFFFFF;">X</div>
+    </div>
+    </div>
+
+    <div class="botao">
+        <input type="submit" value="Conferir vagas" style="width: 142px; height: 48px; background: linear-gradient(225deg, #079D56 0%, #006B3F 100%); border-radius: 8px; border-color: #fff; color: #FFFFFF;">
+    </div>
+
+        <!-- TENTEI FAZER O GRAFISMO MAS NÃO DEU MUITO CERTO :c -->
+        <!-- TRIANGULO
+        <p class="triangulo" style="background-position: right;">
+        </p> -->
+
+    <div class="texto4">
+        <nav>
+        <p><b>Nossos valores</b></p>
+        </nav>
+    </div>
+
+    <div class="texto5">
+        <nav>
+        <p>Conheça os valores que nos guiam:</p>
+        </nav>
+    </div>
+    
+    <div 
+        style="color: #006B3F; margin-left: 50px"><b>Sua beleza</b><img src="img/seta-baixo.png" class="seta"></img>
+        <div class="texto6">
+            <nav>
+            <p>Sabemos que com a rotina agitada nem sempre</p>
+            <p>sobre tempo para se cuidar. Por isso o programa Sua</p>
+            <p>Beleza trás para dentro da MRV um "salão de beleza",</p>
+            <p>facilitando cuidados de rotina.</p>
+            </nav>
+        </div>
+        <table>
+            <div class="texto8"
+                style="color: #006B3F; margin-left: 500px"><b>Encontro</b><img src="img/seta-baixo.png" class="seta"></img> 
+            </div>
+        </table>
+        <table>
+            <div class="texto9"
+                style="color: #006B3F; margin-left: 500px"><b>Seu estilo</b><img src="img/seta-baixo.png" class="seta"></img> 
+            </div>
+        </table>
+    </div>
+        
+    <hr size = 7>
+
+    <div class="texto7">
+    <nav>
+    <div style="color: #006B3F"><b>Sua mente</b><img src="img/seta-baixo.png" class="seta"></img>
+    </div>
+    </nav>
+    </div>
+
+    <hr size = 7>
+
+    <div>
+        <img src="img/pessoas.png" class="pessoas" width="504" height="337"></img>
+    </div>
+
+    <div class="texto10">
+        <nav>
+        <p><b>Conheça nosso espaço</b></p>
+        </nav>
+    </div>
+
+    <div class="texto11">
+        <p>Temos um ambiente dinâmico, que estimula o aprendizado e convida todos a</p>
+        <p>pensarem no bem comum. Afinal, estamos construindo hoje as bases para um</p>
+        <p>mundo melhor, cheio de inovação, sustentabilidade e integridade. E tudo isso a</p>
+        <p>gente já encontra por aqui.</p>
+        <hr>
+        <b><p style="text-decoration:underline">Clique aqui e faça um tour virtual pela nossa sede em BH (MG).</p></b>
+    </div>
+
+    <div class="texto12">
+        <nav>
+        <p><b>Vagas disponíveis</b></p>
+        </nav>
+        <div class="texto11" style="margin-left:auto">
+            <p>Encontre a oportunidade que mais combina com você:</p>
+        </div>
+    </div>
+
+    <div>
+        <div class="texto13" style="margin-left: 50px; margin-top: 60px;">
+            <p><b>Em qual cidade você quer trabalhar?</b></p>
+        </div>
+        <select class="select" name="estado" onchange="buscar_cidades()">
+            <option value="">Selecione um tipo</option>
+            <!-- <?php foreach ($arrEstados as $value => $name) {
+                echo "<option value='{$value}'>{$name}</option>";
+            }?> -->
+        </select>
+    </div>
+
+    <div>
+        <div class="texto13" style="margin-left: 50px;">
+            <p><b>Qual sua área de atuação?</b></p>
+        </div>
+        <select class="select" name="estado" onchange="buscar_area()">
+            <option value="">Selecione área</option>
+            <!-- <?php foreach ($arrEstados as $value => $name) {
+                echo "<option value='{$value}'>{$name}</option>";
+            }?> -->
+        </select>
+    </div>
+
+    <div>
+        <div class="texto13" style="margin-left: 50px;">
+            <p><b>E que tipo de vaga você procura?</b></p>
+        </div>
+        <select class="select" name="estado">
+            <option value=""></option>
+            <!-- <?php foreach ($arrEstados as $value => $name) {
+                echo "<option value='{$value}'>{$name}</option>";
+            }?> -->
+        </select>
+    </div>
+
+    <div class = "vertical"></div>
+    <h2 style = "color: green;">  
+    </h2>     
+
+    <div class="botao">
+        <input type="submit" value="Buscar" style="width: 83px; height: 48px; margin-top: 30px; margin-left: 130px; background: linear-gradient(225deg, #079D56 0%, #006B3F 100%); border-radius: 8px; border-color: #fff; color: #FFFFFF;">
+    </div>    
+
+    <div>
+        <img src="img/person.png" class="person"></img>
+    </div>
 
 </body>
 </html>
